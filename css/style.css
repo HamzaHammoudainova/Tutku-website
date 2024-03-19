@@ -3737,6 +3737,9 @@ html .ui-button.ui-state-disabled:active {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+    .volkswagen {
+    
+    }
     .canvas__open {
         display: block;
         font-size: 22px;
