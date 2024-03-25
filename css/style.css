@@ -2720,11 +2720,12 @@ html .ui-button.ui-state-disabled:active {
 .blog__item__text {
     position: relative;
     padding: 26px 50px 0 30px;
+    
 }
 
 .blog__item__text .label {
     position: absolute;
-    left: 0;
+    
     top: -13px;
     width: 100%;
     text-align: center;
@@ -2742,6 +2743,9 @@ html .ui-button.ui-state-disabled:active {
 
 .blog__item__text h4 {
     margin-bottom: 8px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 .blog__item__text h4 a {
