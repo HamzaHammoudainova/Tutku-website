@@ -1193,6 +1193,37 @@ ol {
   Breadcrumb
 -----------------------*/
 
+
+/*---------------------
+  hamza Style hover
+-----------------------*/
+.header__social a:hover {
+    
+    transform: scale(2);
+  }
+.footer__about__social a:hover {
+    
+    transform: scale(2);
+  }
+.header__menu a:hover {
+    
+    transform: scale(1.5);
+  }
+.scale{
+transition: transform .2s;
+}
+.scale:hover {
+    box-shadow: rgb(16, 130, 145) 0px 10px 50px;
+    transition: .4s ease-in-out;
+    transform: scale(1.2);
+    z-index: 20;
+  } 
+.scalediv:hover {
+    z-index: 20;
+  } 
+  
+/*---------------------*/
+
 .breadcrumb-option {
     padding-top: 90px;
     padding-bottom: 95px;
