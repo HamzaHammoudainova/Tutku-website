@@ -134,7 +134,7 @@ ol {
     top: -20px;
     height: 120px;
     width: 129px;
-    background: url(../img/icon/fan.png);
+    
     content: "";
     z-index: -1;
 }
@@ -318,9 +318,7 @@ ol {
     position: relative;
 }
 
-.header__menu ul li:nth-child(3) {
-    margin-right: 315px;
-}
+
 
 .header__menu ul li:nth-child(4) {
     float: right;
@@ -3489,7 +3487,7 @@ html .ui-button.ui-state-disabled:active {
         margin-right: 30px;
     }
     .header__menu ul li:nth-child(3) {
-        margin-right: 250px;
+        margin-right: 30px;
     }
     .header__menu ul li:nth-child(5) {
         margin-right: 30px;
@@ -3534,7 +3532,7 @@ html .ui-button.ui-state-disabled:active {
         margin-left: -80px;
     }
     .header__menu ul li:nth-child(3) {
-        margin-right: 300px;
+        margin-right: 30px;
     }
     .quote__form {
         padding: 85px 15px 80px 0;
